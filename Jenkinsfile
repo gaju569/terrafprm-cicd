@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-repo/terraform.git' // Specify your Terraform repository URL
+                git 'https://github.com/gaju569/terrafprm-cicd.git' // Specify your Terraform repository URL
             }
         }
         
